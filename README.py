@@ -45,9 +45,9 @@
 #     2.8 Realmente atualizar os pacotes instalados para as suas versões mais recentes, com base na última vez que você executou `sudo apt update`. Digite o seguinte comando e pressione `Enter`: `sudo apt full-upgrade -y`
 #     
 
-# ## 2. Código completo para instalar o `PlayOnLinux (POL)`
+# ## 2. Código completo para configurar/instalar/usar o `PlayOnLinux (POL)`
 # 
-# Para instalar o `PlayOnLinux (POL)` no `Linux Ubuntu` sem precisar digitar linha por linha, você pode seguir estas etapas:
+# Para configurar/instalar/usar o `PlayOnLinux (POL)` no `Linux Ubuntu` sem precisar digitar linha por linha, você pode seguir estas etapas:
 # 
 # 1. Abra o `Terminal Emulator`. Você pode fazer isso pressionando: `Ctrl + Alt + T`
 # 
