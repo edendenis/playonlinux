@@ -42,6 +42,24 @@ Para configurar/instalar/usar o `PlayOnLinux (POL)` no `Linux Ubuntu`, você pod
     2.8 Realmente atualizar os pacotes instalados para as suas versões mais recentes, com base na última vez que você executou `sudo apt update`. Digite o seguinte comando e pressione `Enter`: `sudo apt full-upgrade -y`
     
 
+3. Para configurar/instalar/usar o `PlayOnLinux (POL)` execute o comando: `sudo apt install playonlinux -y`
+
+    **OBSERVAÇÂO(ÕES)**: O diretório para a(s) pasta(s) ou arquivo(s) é indicado a seguir, conferir se no diretório se a(s) pasta(s) e/ou o(s) arquivo(s) existe(m), se não, copiar da pasta `docs` para o diretório:
+    
+    ```
+    whereis playonlinux
+    /usr/bin/playonlinux /usr/share/playonlinux /usr/share/man/man1/playonlinux.1.gz
+    ```
+
+    Você pode usar o código a seguir para copiar a pasta ou o arquivo para o diretório:
+    
+    ```
+    sudo cp /home/edenedfsls/Documents/Downloads/unix/ubuntu/playonlinux/docs/usr/bin/playonlinux /usr/bin/ 
+    sudo cp -r /home/edenedfsls/Documents/Downloads/unix/ubuntu/playonlinux/docs/share/playonlinux /usr/share/ 
+    sudo cp /home/edenedfsls/Documents/Downloads/unix/ubuntu/playonlinux/docs/usr/share/man/man1/playonlinux.1.gz /usr/share/man/man1/ 
+    ```
+
+
 ## 2. Código completo para configurar/instalar/usar o `PlayOnLinux (POL)`
 
 Para configurar/instalar/usar o `PlayOnLinux (POL)` no `Linux Ubuntu` sem precisar digitar linha por linha, você pode seguir estas etapas:
@@ -51,7 +69,6 @@ Para configurar/instalar/usar o `PlayOnLinux (POL)` no `Linux Ubuntu` sem precis
 2. Digite o seguinte comando e pressione `Enter`:
 
     ```
-    sudo apt clean                                                            
     sudo apt autoclean
     sudo apt autoremove -y
     sudo apt update
